@@ -50,6 +50,13 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_ALT>, <&kp LANG_HANGEUL>;
         };
+
+        scroll_encoder1: scroll_encoder1 {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL_ENCODER1";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -90,7 +97,7 @@
                                             &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder1>;
         };
 
         raise_layer {
@@ -102,7 +109,7 @@
                                        &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder1>;
         };
 
         layer_3 {
@@ -114,7 +121,7 @@
                                 &trans       &trans     &trans                                                                   &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder1>;
         };
     };
 };
