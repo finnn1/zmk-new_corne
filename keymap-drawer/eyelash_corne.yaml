@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - '&td1'
   NUMBER:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -195,4 +195,4 @@ layers:
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LANG HANGEUL
+  - {t: '$$mdi:transfer$$', type: trans}
