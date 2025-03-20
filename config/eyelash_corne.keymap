@@ -57,6 +57,13 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         };
+
+        scroll_encoder2: scroll_encoder2 {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "SCROLL_ENCODER2";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -97,7 +104,7 @@
                                             &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
         };
 
         raise_layer {
@@ -106,10 +113,10 @@
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans     &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans     &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                       &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+                                       &trans     &trans     &kp SPACE                                                             &kp SPACE  &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
         };
 
         layer_3 {
@@ -121,7 +128,7 @@
                                 &trans       &trans     &trans                                                                   &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
         };
     };
 };
