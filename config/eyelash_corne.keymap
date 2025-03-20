@@ -56,6 +56,8 @@
             label = "SCROLL_ENCODER1";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+            tap-ms = <500>;
         };
 
         scroll_encoder2: scroll_encoder2 {
@@ -104,7 +106,7 @@
                                             &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 A B>;
+            sensor-bindings = <&scroll_encoder1>;
         };
 
         raise_layer {
@@ -116,7 +118,7 @@
                                        &trans     &trans     &kp SPACE                                                             &kp SPACE  &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 C D>;
+            sensor-bindings = <&scroll_encoder1>;
         };
 
         layer_3 {
@@ -128,7 +130,7 @@
                                 &trans       &trans     &trans                                                                   &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 E F>;
+            sensor-bindings = <&scroll_encoder1>;
         };
     };
 };
