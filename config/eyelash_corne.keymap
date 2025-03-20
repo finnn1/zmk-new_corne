@@ -50,22 +50,6 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_ALT>, <&kp LANG_HANGEUL>;
         };
-
-        scroll_encoder1: scroll_encoder1 {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_ENCODER1";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc MOVE_Y(10)>, <&msc MOVE_Y(-10)>;
-
-            tap-ms = <50>;
-        };
-
-        scroll_encoder2: scroll_encoder2 {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            label = "SCROLL_ENCODER2";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -106,7 +90,7 @@
                                             &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
@@ -118,19 +102,19 @@
                                        &trans     &trans     &kp SPACE                                                             &kp SPACE  &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp TAB  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6          &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans   &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader     &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans   &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &studio_unlock  &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&kp TAB  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6          &kp F7     &kp F8       &kp F9      &kp F10         &kp F11
+&trans   &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader     &mkp LCLK  &mkp MCLK    &mkp RCLK   &msc SCRL_UP    &kp F12
+&trans   &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &studio_unlock  &trans     &bootloader  &sys_reset  &msc SCRL_DOWN  &kp PAUSE_BREAK
                                 &trans       &trans     &trans                                                                   &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder1>;
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
