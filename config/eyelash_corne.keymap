@@ -62,7 +62,7 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             label = "SCROLL_ENCODER2";
             #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
+            bindings = <&kp>, <&kp>;
         };
     };
 
@@ -104,7 +104,7 @@
                                             &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder2 A B>;
         };
 
         raise_layer {
@@ -116,7 +116,7 @@
                                        &trans     &trans     &kp SPACE                                                             &kp SPACE  &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder2 C D>;
         };
 
         layer_3 {
@@ -128,7 +128,7 @@
                                 &trans       &trans     &trans                                                                   &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder2 SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&scroll_encoder2 E F>;
         };
     };
 };
