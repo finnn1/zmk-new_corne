@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - RETURN
-  - LGUI
+  - '&td1'
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - SYMBOL
-  - '&td1'
+  - RIGHT GUI
   NUMBER:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
