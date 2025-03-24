@@ -66,6 +66,30 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        hangul0 {
+            bindings = <&kp LANG_HANGEUL>;
+            key-positions = <18 44>;
+        };
+
+        hangul1 {
+            bindings = <&kp LANG_HANGEUL>;
+            key-positions = <18 45>;
+        };
+
+        hangul2 {
+            bindings = <&kp LANG_HANGEUL>;
+            key-positions = <45 22>;
+        };
+
+        hangul3 {
+            bindings = <&kp LANG_HANGEUL>;
+            key-positions = <22 44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -108,10 +132,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp TAB  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                          &mmv MOVE_UP                     &kp F6            &kp F7     &kp F8       &kp F9      &kp F10         &kp F11
-&trans   &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &kp LANG_HANGEUL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LANG_HANGEUL  &mkp LCLK  &mkp MCLK    &mkp RCLK   &msc SCRL_UP    &kp F12
-&trans   &sys_reset  &trans     &bootloader  &trans     &trans            &kp C_MUTE                    &mmv MOVE_DOWN                   &studio_unlock    &trans     &bootloader  &sys_reset  &msc SCRL_DOWN  &kp PAUSE_BREAK
-                                &trans       &trans     &trans                                                                           &trans            &trans     &trans
+&kp TAB  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                &mmv MOVE_UP                     &kp F6          &kp F7     &kp F8       &kp F9      &kp F10         &kp F11
+&trans   &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans          &mkp LCLK  &mkp MCLK    &mkp RCLK   &msc SCRL_UP    &kp F12
+&trans   &sys_reset  &trans     &bootloader  &trans     &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &studio_unlock  &trans     &bootloader  &sys_reset  &msc SCRL_DOWN  &kp PAUSE_BREAK
+                                &trans       &trans     &trans                                                                 &trans          &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
