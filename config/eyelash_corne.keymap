@@ -48,16 +48,23 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD1";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT>, <&kp LANG_HANGEUL>;
+            bindings = <&kp LEFT_ALT>, <&kp LANG_HANGEUL>;
         };
 
         ht1: ht1 {
             compatible = "zmk,behavior-hold-tap";
             label = "HT1";
-            bindings = <&kp>, <&td1>;
+            bindings = <&kp>, <&td3>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
+        };
+
+        td3: td3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD3";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp LANG_HANGEUL>;
         };
     };
 
