@@ -50,22 +50,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT>, <&kp LANG_HANGEUL>;
         };
-
-        ht1: ht1 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HT1";
-            bindings = <&kp>, <&td3>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-        };
-
-        td3: td3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD3";
-            #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp LANG_HANGEUL>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -88,10 +72,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E  &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K          &kp L    &kp SEMI  &ht0 RIGHT_SHIFT SINGLE_QUOTE
-&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RETURN
-                              &td1   &mo 1  &lt 3 SPACE                                               &lt 3 SPACE  &mo 2  &kp RIGHT_GUI
+&kp ESCAPE      &kp Q  &kp W  &kp E  &kp R  &kp T                                      &kp UP                &kp Y        &kp U  &kp I          &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K          &kp L    &kp SEMI  &ht0 RIGHT_SHIFT SINGLE_QUOTE
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B        &kp LANG_HANGEUL              &kp DOWN              &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RETURN
+                              &td1   &mo 1  &lt 3 SPACE                                                      &lt 3 SPACE  &mo 2  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
