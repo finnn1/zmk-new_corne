@@ -54,9 +54,29 @@
         scroll_encoder1: scroll_encoder1 {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc MOVE_Y(-5)>, <&msc MOVE_Y(5)>;
 
             label = "SCROLL_ENCODER1";
+        };
+
+        scroll_down: scroll_down {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "SCROLL_DOWN";
+            #binding-cells = <1>;
+            x-input-code = <0>;
+            y-input-code = <(-2)>;
+            time-to-max-speed-ms = <300>;
+            acceleration-exponent = <0>;
+        };
+
+        scroll_up: scroll_up {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "SCROLL_UP";
+            #binding-cells = <1>;
+            x-input-code = <0>;
+            y-input-code = <2>;
+            time-to-max-speed-ms = <300>;
+            acceleration-exponent = <0>;
         };
     };
 
@@ -74,29 +94,7 @@
         tap-ms = <100>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        hangul0 {
-            bindings = <&kp LANG_HANGEUL>;
-            key-positions = <18 44>;
-        };
-
-        hangul1 {
-            bindings = <&kp LANG_HANGEUL>;
-            key-positions = <18 45>;
-        };
-
-        hangul2 {
-            bindings = <&kp LANG_HANGEUL>;
-            key-positions = <45 22>;
-        };
-
-        hangul3 {
-            bindings = <&kp LANG_HANGEUL>;
-            key-positions = <22 44>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
