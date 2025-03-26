@@ -555,38 +555,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<path d="M328,161 l-14,-46" class="combo"/>
-<path d="M328,161 l14,46" class="combo"/>
-<rect rx="6" ry="6" x="314" y="148" width="28" height="26" class="combo"/>
-<text x="328" y="161" class="combo tap">
-<tspan x="328" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="328" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<path d="M470,161 l-144,-57" class="combo"/>
-<path d="M470,161 l144,57" class="combo"/>
-<rect rx="6" ry="6" x="456" y="148" width="28" height="26" class="combo"/>
-<text x="470" y="161" class="combo tap">
-<tspan x="470" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="470" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<path d="M652,161 l-15,46" class="combo"/>
-<path d="M652,161 l15,-46" class="combo"/>
-<rect rx="6" ry="6" x="638" y="148" width="28" height="26" class="combo"/>
-<text x="652" y="161" class="combo tap">
-<tspan x="652" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="652" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M510,161 l145,-57" class="combo"/>
-<path d="M510,161 l-145,57" class="combo"/>
-<rect rx="6" ry="6" x="496" y="148" width="28" height="26" class="combo"/>
-<text x="510" y="161" class="combo tap">
-<tspan x="510" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="510" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -870,38 +838,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M328,161 l-14,-46" class="combo"/>
-<path d="M328,161 l14,46" class="combo"/>
-<rect rx="6" ry="6" x="314" y="148" width="28" height="26" class="combo"/>
-<text x="328" y="161" class="combo tap">
-<tspan x="328" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="328" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<path d="M470,161 l-144,-57" class="combo"/>
-<path d="M470,161 l144,57" class="combo"/>
-<rect rx="6" ry="6" x="456" y="148" width="28" height="26" class="combo"/>
-<text x="470" y="161" class="combo tap">
-<tspan x="470" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="470" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<path d="M652,161 l-15,46" class="combo"/>
-<path d="M652,161 l15,-46" class="combo"/>
-<rect rx="6" ry="6" x="638" y="148" width="28" height="26" class="combo"/>
-<text x="652" y="161" class="combo tap">
-<tspan x="652" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="652" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M510,161 l145,-57" class="combo"/>
-<path d="M510,161 l-145,57" class="combo"/>
-<rect rx="6" ry="6" x="496" y="148" width="28" height="26" class="combo"/>
-<text x="510" y="161" class="combo tap">
-<tspan x="510" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="510" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1165,38 +1101,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M328,161 l-14,-46" class="combo"/>
-<path d="M328,161 l14,46" class="combo"/>
-<rect rx="6" ry="6" x="314" y="148" width="28" height="26" class="combo"/>
-<text x="328" y="161" class="combo tap">
-<tspan x="328" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="328" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<path d="M470,161 l-144,-57" class="combo"/>
-<path d="M470,161 l144,57" class="combo"/>
-<rect rx="6" ry="6" x="456" y="148" width="28" height="26" class="combo"/>
-<text x="470" y="161" class="combo tap">
-<tspan x="470" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="470" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<path d="M652,161 l-15,46" class="combo"/>
-<path d="M652,161 l15,-46" class="combo"/>
-<rect rx="6" ry="6" x="638" y="148" width="28" height="26" class="combo"/>
-<text x="652" y="161" class="combo tap">
-<tspan x="652" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="652" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M510,161 l145,-57" class="combo"/>
-<path d="M510,161 l-145,57" class="combo"/>
-<rect rx="6" ry="6" x="496" y="148" width="28" height="26" class="combo"/>
-<text x="510" y="161" class="combo tap">
-<tspan x="510" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="510" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Fn">
@@ -1445,38 +1349,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M328,161 l-14,-46" class="combo"/>
-<path d="M328,161 l14,46" class="combo"/>
-<rect rx="6" ry="6" x="314" y="148" width="28" height="26" class="combo"/>
-<text x="328" y="161" class="combo tap">
-<tspan x="328" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="328" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
-<path d="M470,161 l-144,-57" class="combo"/>
-<path d="M470,161 l144,57" class="combo"/>
-<rect rx="6" ry="6" x="456" y="148" width="28" height="26" class="combo"/>
-<text x="470" y="161" class="combo tap">
-<tspan x="470" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="470" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<path d="M652,161 l-15,46" class="combo"/>
-<path d="M652,161 l15,-46" class="combo"/>
-<rect rx="6" ry="6" x="638" y="148" width="28" height="26" class="combo"/>
-<text x="652" y="161" class="combo tap">
-<tspan x="652" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="652" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<path d="M510,161 l145,-57" class="combo"/>
-<path d="M510,161 l-145,57" class="combo"/>
-<rect rx="6" ry="6" x="496" y="148" width="28" height="26" class="combo"/>
-<text x="510" y="161" class="combo tap">
-<tspan x="510" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="510" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
 </g>
 </g>
 </g>
