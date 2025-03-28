@@ -121,10 +121,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                        &trans          &kp N6    &kp N7    &kp N8     &kp N9      &kp N0    &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans    &kp UP    &trans     &kp INSERT  &kp HOME  &kp PG_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE            &trans          &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL     &kp END   &kp PG_DN
-                        &trans  &trans  &trans                                        &trans    &trans    &trans
+&trans  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                        &trans          &kp N6      &kp N7    &kp N8    &kp N9     &kp N0    &kp BSPC
+&trans  &trans  &trans    &kp UP    &trans     &trans                &trans  &trans  &trans  &trans      &trans    &kp UP    &trans     &kp HOME  &kp PG_UP
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp C_MUTE            &trans          &trans      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN
+                          &trans    &trans     &trans                                        &kp INSERT  &kp DEL   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
