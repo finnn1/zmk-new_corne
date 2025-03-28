@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -50,7 +50,7 @@ layers:
   - {t: LANG HANGEUL, h: SYMBOL}
   - RIGHT GUI
   NUMBER:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
   - '#'
@@ -148,7 +148,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -162,7 +162,7 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - $$mdi:pan-up$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -177,19 +177,19 @@ layers:
   - $$mdi:pan-up$$
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
+  - PRINTSCREEN
+  - SCROLLLOCK
   - PAUSE BREAK
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
